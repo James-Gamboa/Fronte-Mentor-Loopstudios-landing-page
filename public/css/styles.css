@@ -1,7 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');
+@charset "UTF-8";
+/* Colores */
+/* Tipografías */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
-:root {
-    /* Tipografías */
-    --text: 'Alata', sans-serif;
-    --titles: 'Josefin Sans', sans-serif;
-}
+a {
+  text-decoration: none; }
+
+h2,
+.hero__content p {
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase; }
+
+.mobile-menu,
+.desktop-menu {
+  display: none; }
+
+.hero {
+  background-image: url("../../public/img/mobile/image-hero.jpg");
+  background-size: cover;
+  min-height: 80vh; }
