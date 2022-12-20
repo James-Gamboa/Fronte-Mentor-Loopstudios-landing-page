@@ -1,15 +1,20 @@
-body{
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-h2,
-.hero__content p{
-  font-family: $titles;
-  text-transform: uppercase;
+p {
+  font-family: $text;
+}
+
+main {
+  padding: 3rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
 }
