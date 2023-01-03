@@ -132,6 +132,11 @@ h2,
   isolation: isolate;
 }
 
+.creations__container :hover{
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+	transform: translateY(-3%);
+}
+
 .creations__container  div > h2{
   color: $white;
   font-size: 17.6px;
@@ -220,11 +225,25 @@ h2,
   display: flex;
   gap: 1rem;
   font-size: 19px;
+  color: white;
 }
 
 .copyright {
   color: $gray;
   font-size: 12px;
+}
+
+.menu-hover :hover {
+  color: $dark-gray;
+}
+
+.icons i {
+  color: white;
+}
+
+
+.icons i:hover {
+  color: $dark-gray;
 }
 
 @media screen and (min-width: 800px) {
@@ -381,6 +400,10 @@ main {
 
 .icons-copyright {
   align-items: end;
+}
+
+.menu-hover :hover {
+  color: $black;
 }
 
 }
