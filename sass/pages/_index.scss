@@ -132,9 +132,10 @@ h2,
   isolation: isolate;
 }
 
-.creations__container :hover{
-	box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
-	transform: translateY(-3%);
+.creations__container  div:hover {
+  box-shadow: 5px 5px 20px rgba(0,0,0,0.1);
+  transform: translateY(-3%);
+  backface-visibility: hidden;
 }
 
 .creations__container  div > h2{
@@ -240,7 +241,6 @@ h2,
 .icons i {
   color: white;
 }
-
 
 .icons i:hover {
   color: $dark-gray;
