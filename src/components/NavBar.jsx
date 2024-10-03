@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { useState, useEffect } from "react";
 import { navLinks } from "../utils/data";
 import { Link } from "react-scroll";
@@ -18,6 +19,7 @@ const icon = {
 
 export default function NavBar({ toggleDrawer, lg }) {
   const [active, setActive] = useState(null);
+  // eslint-disable-next-line no-unused-vars
   const [scrollHeight, setScrollHeight] = useState(0);
   const [backgroundColor, setBackgroundColor] = useState("transparent");
 
@@ -40,7 +42,6 @@ export default function NavBar({ toggleDrawer, lg }) {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-
   return (
     <div className="navbar" style={{ backgroundColor: backgroundColor }}>
       <div className="container">
@@ -66,7 +67,6 @@ export default function NavBar({ toggleDrawer, lg }) {
               />
             </motion.svg>
           </Link>
-
           {lg ? (
             <div className="nav-tabs">
               {navLinks.map((navLink, index) => (
