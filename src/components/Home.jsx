@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { hero } from "../utils/data";
 import { motion } from "framer-motion";
 
