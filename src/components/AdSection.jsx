@@ -1,6 +1,7 @@
-import { ad } from "../utils/data";
+// @ts-nocheck
+import { ad } from "../../app/utils/data";
 import { motion } from "framer-motion";
-import { splitString } from "../utils/data";
+import { splitString } from "../../app/utils/data";
 
 const picVariants = {
   initial: {

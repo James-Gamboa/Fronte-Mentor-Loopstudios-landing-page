@@ -1,4 +1,5 @@
-import { creations } from "../utils/data";
+// @ts-nocheck
+import { creations } from "../../app/utils/data";
 import { motion } from "framer-motion";
 
 const fadeInVariants = {

@@ -1,6 +1,6 @@
 // @ts-nocheck
 import { Link } from "react-scroll";
-import { navLinks } from "../utils/data";
+import { navLinks } from "../../app/utils/data";
 
 export default function Footer() {
   return (
